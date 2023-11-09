@@ -3,11 +3,12 @@
 ## Check docker and docker compose settings. If version information is displayed in the return value, it is OK
 
 ```docker -v```
+
 ```docker-compose -v```
 
 ## Download link
 
-![(https://docs.docker.jp/get-docker.html)Docker Download Link]
+[https://docs.docker.jp/get-docker.html](Docker Download Link)
 
 ### make a directory
 
