@@ -1,4 +1,4 @@
-# docker code
+# How to create react project in Docker
 
 ## Check docker and docker compose settings. If version information is displayed in the return value, it is OK
 
@@ -10,15 +10,15 @@ docker -v
 docker-compose -v
 ```
 
-## Download link
+## Docker download link in case the version does not show up in the terminal
 
-[Docker Download Link](https://docs.docker.jp/get-docker.html)
+[Docker App Download Link](https://docs.docker.jp/get-docker.html)
 
 ## How to settings
 
 ### Launch docker application *no command
 
-### make a directory
+### make a directory for app
 
 ```terminal
 mkdir front
