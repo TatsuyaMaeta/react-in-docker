@@ -32,6 +32,14 @@
 
 ![step2](ref-images-for-readme/step2.png)
 
+#### Note that if you have a weak Internet connection, the project may stop with an error before it is completed. In this case, please refrain from downloading large files at the same time
+
+#### If you want to create a project in typescript, use the following command
+
+```docker compose run --rm front sh -c "npx create-react-app app --template typescript"```
+
+### If able to do so, wait a few minutes
+
 ### Start containers in the background of the terminal
 
 ```docker-compose up -d```
@@ -42,9 +50,14 @@
 
 ### Command to go to the application directory and start npm
 
-```cd app && npm start```
+```terminal:terminal(in app)
+cd app && npm start
+```
+
+#### If you want to use tailwindcss, run the following command after entering the container
+
+```npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p```
 
 ### Command to stop a running container
 
 ```docker compose down```
-
