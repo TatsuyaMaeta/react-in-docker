@@ -10,6 +10,8 @@
 
 [Docker Download Link](https://docs.docker.jp/get-docker.html)
 
+## How to settings
+
 ### make a directory
 
 ```mkdir front```
