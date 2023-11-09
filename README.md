@@ -8,7 +8,7 @@
 
 ## Download link
 
-[https://docs.docker.jp/get-docker.html](Docker Download Link)
+[Docker Download Link](https://docs.docker.jp/get-docker.html)
 
 ### make a directory
 
