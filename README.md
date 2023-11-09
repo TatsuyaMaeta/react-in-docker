@@ -48,7 +48,7 @@ docker compose run --rm front sh -c "npx create-react-app app"
 docker compose run --rm front sh -c "npx create-react-app app --template typescript"
 ```
 
-### If able to do so, wait a few minutes
+### If able to do so, wait a few minutes \.\.\.
 
 ### Start containers in the background of the terminal
 
