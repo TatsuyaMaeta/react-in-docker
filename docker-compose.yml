@@ -1,0 +1,30 @@
+# Docker Composeのバージョン
+version: "3.7"
+
+# サービスの定義
+services:
+  # "front"というサービスの設定
+  front:
+    # イメージのビルド情報
+    build:
+      # Dockerイメージをビルドするためのコンテキスト
+      context: .
+      # Dockerfileの場所
+      dockerfile: Dockerfile
+    
+    # ボリュームのマウント設定
+    volumes:
+      # ホストの"./front"ディレクトリをコンテナの"/front"にマウント
+      - ./front:/front
+
+    # 作業ディレクトリの設定
+    working_dir: /front
+
+    # コンテナ内で実行されるコマンド
+    command: node
+
+    ports:
+      - '3001:3001'
+
+    # ttyを有効にする（コンテナと対話的なセッションを可能にする）
+    tty: true
