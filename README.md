@@ -2,9 +2,13 @@
 
 ## Check docker and docker compose settings. If version information is displayed in the return value, it is OK
 
-```docker -v```
+```terminal
+docker -v
+```
 
-```docker-compose -v```
+```terminal
+docker-compose -v
+```
 
 ## Download link
 
@@ -16,11 +20,15 @@
 
 ### make a directory
 
-```mkdir front```
+```terminal
+mkdir front
+```
 
 ### Temporarily launch a container, create a react project in the container, and then destroy the container
 
-```docker compose run --rm front sh -c "npx create-react-app app"```
+```terminal
+docker compose run --rm front sh -c "npx create-react-app app"
+```
 
 ### When the following error statement is displayed in the terminal
 
@@ -36,17 +44,23 @@
 
 #### If you want to create a project in typescript, use the following command
 
-```docker compose run --rm front sh -c "npx create-react-app app --template typescript"```
+```terminal
+docker compose run --rm front sh -c "npx create-react-app app --template typescript"
+```
 
 ### If able to do so, wait a few minutes
 
 ### Start containers in the background of the terminal
 
-```docker-compose up -d```
+```terminal
+docker-compose up -d
+```
 
 ### Entering the Container
 
-```docker compose exec front sh```
+```terminal
+docker compose exec front sh
+```
 
 ### Command to go to the application directory and start npm
 
