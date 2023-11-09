@@ -56,8 +56,12 @@ cd app && npm start
 
 #### If you want to use tailwindcss, run the following command after entering the container
 
-```npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p```
+```terminal
+npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p
+```
 
 ### Command to stop a running container
 
-```docker compose down```
+```terminal
+docker compose down
+```
