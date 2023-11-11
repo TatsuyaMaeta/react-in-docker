@@ -6,9 +6,15 @@
 docker -v
 ```
 
+in my case
+![docker -v](ref-images-for-readme/docker-v.png)
+
 ```terminal
 docker-compose -v
 ```
+
+in my case
+![docker compose -v](ref-images-for-readme/docker-compose-v.png)
 
 ## Docker download link in case the version does not show up in the terminal
 
