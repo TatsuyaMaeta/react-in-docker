@@ -1,7 +1,10 @@
 FROM node:16.17.1-bullseye
+
+# Create working directory in container
 WORKDIR /src
 
+# Delete unnecessary apt-get files
 RUN apt-get clean
 
-EXPOSE 3000
-
+# Container published on port number 5173
+EXPOSE 5173

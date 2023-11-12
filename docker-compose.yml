@@ -6,6 +6,7 @@ services:
   # "front"というサービスの設定
   front:
     # イメージのビルド情報
+    container_name: front-app
     build:
       # Dockerイメージをビルドするためのコンテキスト
       context: .
@@ -23,8 +24,9 @@ services:
     # コンテナ内で実行されるコマンド
     command: node
 
+    # 公開用のポート指定。ホスト側:コンテナ側
     ports:
-      - '3000:3000'
+      - '5173:5173'
 
     # ttyを有効にする（コンテナと対話的なセッションを可能にする）
     tty: true
